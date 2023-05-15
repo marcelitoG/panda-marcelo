@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+  <style>
+    #title {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #title h1 {
+      font-size: 20pt;
+    }
+
+    #title h2:last-child {
+      margin-top: -20px;
+      font-size: 15pt;
+    }
+
+    .content-block {
+      display: flex;
+      margin-left: 30px;
+      margin-top: 50px;
+    }
+    
+    .content-block > *:not(:first-child) {
+      margin-left: 30px;
+    }
+
+    .image-frame {
+      border: 10px solid black;
+      display: flex;
+      width: 420px;
+      height: 580px;
+      justify-content: center;
+      align-items: center;
+      background-color: rgb(216, 216, 216);
+      box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.5);
+    }
+
+    .image-frame-left {
+      transform: rotate(-5deg);
+    }
+
+    .image-frame-right {
+      transform: rotate(5deg);
+    }
+
+    p {
+      font-family: 'Pacifico', cursive;
+      font-size: 14pt;
+    }
+
+    .text-box {
+      width: 20%;
+    }
+
+    img {
+      width: 400px;
+      height: 560px;
+    }
+
+    .divisor {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .divisor p {
+      font-size: 40pt;
+    }
+
+    .float-right {
+      flex-direction: row-reverse;
+      margin-right: 30px;
+    }
+
+    #final-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    #final-text > div {
+      width: 50%;
+    }
+
+    @media screen and (max-width: 410px) {
+       .content-block {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+      }
+
+      .content-block > *:not(:first-child) {
+        margin-top: 20px;
+        margin-left: 0px;
+      }
+
+      .image-frame {
+        border: 10px solid black;
+        display: flex;
+        width: 320px;
+        height: 440px;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(216, 216, 216);
+        box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.5);
+      }
+
+      img {
+        width: 300px;
+        height: 420px;
+      }
+
+      .text-box {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body style="background-color: rgb(255, 255, 255)">
+  <header>
+    <div id="title">
+      <h1>💕Motivos para eu amar você💕</h1>
+      <h2>Jessyca Ribeiro (Meu pandinha 🐼)</h2>
+    </div>
+  </header>
+  <main>
+    <div class="content-block">
+      <div class="left-image image-frame image-frame-left">
+        <img src="/public/images/marcelo_jessyca_01.png" />
+      </div>
+      <div class="text-box">
+        <p>Esse foi o dia anterior ao dia em que nossa vida começou a virar do avesso. Nesse dia a gente riu, comeu e se divertiu muito, foi um dia muito incrível com você 💗💗</p>
+      </div>
+    </div>
+    <div class="divisor"><p>🐼</p></div>
+    <div class="content-block float-right">
+      <div class="left-image image-frame image-frame-right">
+        <img src="/public/images/marcelo_jessyca_02.jpg" />
+      </div>
+      <div class="text-box">
+        <p>Aqui temos a comemoração de uma das datas mais importantes de todas, o seu aniversário, o dia em que a pessoa que eu mais amo nasceu, o seu dia amor!
+          Essa é uma data que o mundo todo deveria parar, pois a pessoa que trouxe brilho ao mundo, ao meu mundo, nasceu!!
+        </p>
+      </div>
+    </div>
+    <div class="divisor"><p>🐼</p></div>
+    <div class="content-block">
+      <div class="left-image image-frame image-frame-left">
+        <img src="/public/images/marcelo_jessyca_03.jpg" />
+      </div>
+      <div class="text-box">
+        <p>E aqui temos o motivo de eu passar a amar comemorar meu aniversário!
+          Desde que você entrou de vez em minha vida, as datas comemorativas passaram a ter um significado maior,
+          pois sei que você vai estar ao meu lado, tornando essse dia mais especial do que ele realmente é! Te amuuuuuuu pã pã.
+        </p>
+      </div>
+    </div>
+    <div class="divisor"><p>🐼</p></div>
+    <div class="content-block float-right">
+      <div class="left-image image-frame image-frame-right">
+        <img src="/public/images/marcelo_jessyca_04.jpg" />
+      </div>
+      <div class="text-box">
+        <p>E como não falar das nossas idas ao cinema? Você se tornou a minha melhor amiga, a pessoa que eu quero ao lado,
+          seja para ver um filminho ou uma série em casa, no cinema ou em qualquer lugar. Você se tornou a pessoa que eu quero dividir os meus momentos,
+          seja eles bons ou ruins, a pessoa que eu sei que poderei confiar! 💗
+        </p>
+      </div>
+    </div>
+    <div class="divisor"><p>🐼</p></div>
+    <div id="final-text">
+      <div>
+        <p>Eu poderia pôr inumeras fotos nossas aqui, enumerar todos os motivos para te amar e querer você ao meu lado,
+          mas sabemos que o mundo não teria memória suficiente para guardar tudo isso né? kkkkkkkkkkk
+          Panda, os motivos de te amar são simples e ao mesmo tempo complexos, é com você que eu sinto a paz, é com você que o mundo fica melhor,
+          é com você que eu quero passar o resto da minha vida.
+          Daqui até a lua, da lua até ao universo, do universo até o infinito! Eu te amooooooooooooo demais garota!
+        </p>
+      </div>
+    </div>
+  </main>
+</body>
+</html>
