@@ -48,11 +48,21 @@
       align-items: center;
       background-color: rgb(216, 216, 216);
       box-shadow: 10px 15px 5px rgba(0, 0, 0, 0.5);
+      transition: all 2s ease;
     }
 
     .image-frame-left {
       transform: rotate(-5deg);
     }
+
+    /* .image-frame-left:hover {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      transform: rotate(0deg);
+    } */
 
     .image-frame-right {
       transform: rotate(5deg);
@@ -97,7 +107,7 @@
       width: 50%;
     }
 
-    @media screen and (max-width: 410px) {
+    @media screen and (max-width: 522px) {
        .content-block {
         display: flex;
         flex-direction: column;
@@ -132,7 +142,7 @@
   </style>
 </head>
 <body style="background-color: rgb(255, 255, 255)">
-  <audio id="music" src="/public/musics/jorge_mateus_duas_metades.mp3" loop="true"></audio>
+  <audio id="music" src="./public/musics/jorge_mateus_duas_metades.mp3" loop="true"></audio>
   <header>
     <div id="title">
       <h1>💕Motivos para eu amar você💕</h1>
@@ -143,7 +153,7 @@
   <main>
     <div class="content-block">
       <div class="left-image image-frame image-frame-left">
-        <img src="/public/images/marcelo_jessyca_01.png" />
+        <img src="./public/images/marcelo_jessyca_01.png" />
       </div>
       <div class="text-box">
         <p>Esse foi o dia anterior ao dia em que nossa vida começou a virar do avesso. Nesse dia a gente riu, comeu e se divertiu muito, foi um dia muito incrível com você 💗💗</p>
@@ -152,7 +162,7 @@
     <div class="divisor"><p>🐼</p></div>
     <div class="content-block float-right">
       <div class="left-image image-frame image-frame-right">
-        <img src="/public/images/marcelo_jessyca_02.jpg" />
+        <img src="./public/images/marcelo_jessyca_02.jpg" />
       </div>
       <div class="text-box">
         <p>Aqui temos a comemoração de uma das datas mais importantes de todas, o seu aniversário, o dia em que a pessoa que eu mais amo nasceu, o seu dia amor!
@@ -163,7 +173,7 @@
     <div class="divisor"><p>🐼</p></div>
     <div class="content-block">
       <div class="left-image image-frame image-frame-left">
-        <img src="/public/images/marcelo_jessyca_03.jpg" />
+        <img src="./public/images/marcelo_jessyca_03.jpg" />
       </div>
       <div class="text-box">
         <p>E aqui temos o motivo de eu passar a amar comemorar meu aniversário!
@@ -175,7 +185,7 @@
     <div class="divisor"><p>🐼</p></div>
     <div class="content-block float-right">
       <div class="left-image image-frame image-frame-right">
-        <img src="/public/images/marcelo_jessyca_04.jpg" />
+        <img src="./public/images/marcelo_jessyca_04.jpg" />
       </div>
       <div class="text-box">
         <p>E como não falar das nossas idas ao cinema? Você se tornou a minha melhor amiga, a pessoa que eu quero ao lado,
